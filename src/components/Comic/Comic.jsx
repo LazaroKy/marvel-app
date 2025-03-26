@@ -28,7 +28,7 @@ const Comic = ({ poster, title, id, prices }) => {
           <span>Comic creators ↗</span>
         </NavLink> */}
         <span onClick={handleFavourites} className={s.favButton}>
-          Add to favourites
+          Adicione aos favoritos
         </span>
         <span>Comic price: {Number(prices[0].price) || "N/A"}</span>
         <span
