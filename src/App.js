@@ -13,12 +13,14 @@ import CharacterEvents from "./components/CharacterEvents/CharacterEvents.jsx";
 import Aside from "./components/AsideMenu/Aside.jsx";
 import FavouriteCharacters from "./components/FavouriteCharacters/FavouriteCharacters.jsx";
 import FavouriteComics from "./components/FavouriteComics/FavouriteComics.jsx";
+import ChangeLanguage from "./components/ChangeLanguage/ChangeLanguage.jsx";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Aside />
+      <ChangeLanguage/>
       <Routes>
         <Route path="/" element={<Characters />} />
         <Route path="/comics" element={<Comics />} />
