@@ -6,10 +6,10 @@ const Aside = () => {
     <aside>
       <ul className={s.asideMenu}>
         <NavLink className={s.link} to="/characters/favourites">
-          <li>Favourite characters</li>
+          <li>Personagens favoritos</li>
         </NavLink>
         <NavLink className={s.link} to="/comics/favourites">
-          <li>Favourite comics</li>
+          <li>HQs favoritas</li>
         </NavLink>
       </ul>
     </aside>
