@@ -42,13 +42,13 @@ const Character = ({ name, poster, id }) => {
       <span className={s.charName}>{name}</span>
       <div className={s.charOptions}>
         <NavLink to={`/character/${name}/comics`} className={s.link}>
-          <span onClick={handleCharacterComicsClick}>Character comics ↗</span>
+          <span onClick={handleCharacterComicsClick}>HQs do personagens ↗</span>
         </NavLink>
         <NavLink to={`/character/${name}/events`} className={s.link}>
-          <span onClick={handleCharacterEventsClick}>Character events ↗</span>
+          <span onClick={handleCharacterEventsClick}>Eventos do personagem ↗</span>
         </NavLink>
         <span onClick={handleFavourites} className={s.favButton}>
-          Add to favourites
+          Adicione aos favoritos
         </span>
         <span className={`${s.favIcon} ${addedToFavIcon && s.favIconClicked}`}>
           ⭐
