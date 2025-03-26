@@ -10,9 +10,9 @@ const CharacterEvents = () => {
   if (events === "N/A")
     return (
       <div className={s.noCharacters}>
-        <h1>This character doesn't have events to show</h1>
+        <h1>Esse personagem não possui nenhum evento para ser exibido</h1>
         <NavLink className={s.link} to="/">
-          <span>←Go back</span>
+          <span>←Voltar</span>
         </NavLink>
       </div>
     );
